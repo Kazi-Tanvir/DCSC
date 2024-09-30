@@ -1,0 +1,238 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #081c4a;
+    color: white;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0a2e66;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.join-btn {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+    background: url('path/to/background.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-images img {
+    width: 200px;
+    margin: 0.5rem;
+}
+
+/* About section styles */
+.about {
+    padding: 2rem;
+    background-color: #102e76;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.tab-btn {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    background-color: #d35400;
+}
+
+.tab-content {
+    display: none;
+    text-align: left;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Exposition section styles */
+.exposition {
+    padding: 10rem;
+    text-align: center;
+}
+
+.exposition h2 {
+    margin-bottom: 1rem;
+}
+
+.events {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.event {
+    background-color: #0a2e66;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.event img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Gallery section styles */
+.gallery {
+    padding: 2rem;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 1rem;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 200px;
+    margin: 0.5rem;
+    border-radius: 8px;
+}
+
+.load-more {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Committee section styles */
+.committee {
+    padding: 10rem;
+    text-align: center;
+}
+
+.committee h2 {
+    margin-bottom: 1rem;
+}
+
+.committee-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    background-color: #0a2e66;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0a2e66;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}
